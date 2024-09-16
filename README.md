@@ -2,7 +2,9 @@
 
 ## Telas
 
-Crie sua tela na pasta <a href="./co_habito/lib/">lib</a>.
+Quando for realizar o desenvolvimento de sua tela, crie uma branch com base na ***dev*** e com o nome da sua tela. Também crie sua tela na pasta <a href="./co_habito/lib/">lib</a> com o mesmo nome.
+
+Ao terminar sua tela, realize um ***Pull request*** da sua branch para a dev e peça para outra pessoa aprová-lo.
 
 ## Fontes
 
