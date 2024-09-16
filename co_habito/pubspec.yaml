@@ -88,3 +88,20 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+    - family: Livvic
+      fonts:
+        - asset: assets/fonts/Livvic-Bold.ttf
+        - asset: assets/fonts/Livvic-ExtraLight.ttf
+        - asset: assets/fonts/Livvic-Light.ttf
+        - asset: assets/fonts/Livvic-Regular.ttf
+        - asset: assets/fonts/Livvic-SemiBold.ttf
