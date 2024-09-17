@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 import 'AppColors.dart';
+import 'components/GenericalIput.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     home: Scaffold(
       body: Center(
-        child: Text(
-          'Hello, World!',
-          style: TextStyle(
-            color: AppColors.Lapis_Lazuli,
-            fontSize: 40,
-            fontFamily: 'Poppins',
-            fontWeight: FontWeight.bold,
+          child: Column(
+            children: [
+              GenericalInput(
+                textInputType: TextInputType.number,
+                ispassword: false,
+              ),
+            ],
           ),
         ),
       ),
     ),
-  ));
+  );
 }

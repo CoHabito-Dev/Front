@@ -6,6 +6,7 @@ class AppColors {
   static const Color Charcoal = Color.fromARGB(255, 47, 72, 88);
   static const Color Light_Green = Color.fromARGB(255, 158, 228, 147);
   static const Color Nyanza = Color.fromARGB(255, 218, 247, 220);
+  
 }
 
 // Para utilizar essas cores em outras partes do código, basta importar o arquivo AppColors.dart e fazer referência às cores.
