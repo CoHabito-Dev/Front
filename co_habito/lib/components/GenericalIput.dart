@@ -29,12 +29,18 @@ class GenericalInput extends StatelessWidget{
           fillColor: Color(0xFFF6F6F6),
           filled: true,
           border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(30.0),
-            borderSide: BorderSide.none, // Remover a borda para manter o foco na cor de fundo
+            borderRadius: BorderRadius.circular(15.0),
+            borderSide: const BorderSide(
+              color: Color(0xFFB3B3B3),
+              width: 1.5,
+            ), 
           ),
           focusedBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(30.0),
-            borderSide: BorderSide.none, // Manter o mesmo estilo ao focar
+            borderRadius: BorderRadius.circular(15.0),
+            borderSide: const BorderSide(
+              color: Color(0xFFB3B3B3),
+              width: 1.5,
+            ), // Manter o mesmo estilo ao focar
           ),
         ),
       ),
