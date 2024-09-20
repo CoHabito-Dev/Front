@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class BodyWithLargeHeader extends StatelessWidget implements PreferredSizeWidget{
+class BodyWithMediumHeader extends StatelessWidget implements PreferredSizeWidget{
   final Widget? child;
-  BodyWithLargeHeader({this.child});
+  BodyWithMediumHeader({this.child});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class BodyWithLargeHeader extends StatelessWidget implements PreferredSizeWidget
       alignment: Alignment.bottomCenter,
       child: Container(
       constraints: BoxConstraints(
-        maxHeight: 300
+        maxHeight: 600
       ),
         decoration: BoxDecoration(
           color: Colors.white,
