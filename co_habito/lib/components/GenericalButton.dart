@@ -2,14 +2,14 @@ import 'package:co_habito/AppColors.dart';
 import 'package:flutter/material.dart';
 
 class GenericalButton extends StatelessWidget{
-  String buttonText;
-  VoidCallback onPressed;
-  double width = 240;
-  double height = 51;
-  TextStyle textStyle = const TextStyle(fontFamily: 'Poppins', fontSize: 20, fontWeight: FontWeight.w500);
-  Color buttonColor = AppColors.Charcoal;
-  Color textButtonColor = Colors.white;
-  BorderRadius borderRadius = BorderRadius.circular(12);
+  final String buttonText;
+  final VoidCallback onPressed;
+  final double width = 240;
+  final double height = 51;
+  final TextStyle textStyle = const TextStyle(fontFamily: 'Poppins', fontSize: 20, fontWeight: FontWeight.w500);
+  final Color buttonColor = AppColors.Charcoal;
+  final Color textButtonColor = Colors.white;
+  final BorderRadius borderRadius = BorderRadius.circular(12);
 
   GenericalButton({required this.buttonText, required this.onPressed});
 

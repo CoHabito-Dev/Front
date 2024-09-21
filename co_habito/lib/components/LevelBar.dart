@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:co_habito/AppColors.dart';
 
 class LevelBar extends StatefulWidget {
-  double min = 0;
-  double max = 10;
-  int initalValue = 5;
-  int divisions = 10;
-  Color activeColor = AppColors.Charcoal;
-  Color inactiveColor = const Color.fromRGBO(227, 227, 227, 100);
-  TextStyle textStyle = const TextStyle(
+  final double min = 0;
+  final double max = 10;
+  final int initalValue = 5;
+  final int divisions = 10;
+  final Color activeColor = AppColors.Charcoal;
+  final Color inactiveColor = const Color.fromRGBO(227, 227, 227, 100);
+  final TextStyle textStyle = const TextStyle(
       fontFamily: 'Poppins', fontWeight: FontWeight.w700, fontSize: 16);
-  double trackHeight = 8.0;
-  double width = 450;
+  final double trackHeight = 8.0;
+  final double width = 450;
 
   @override
   _LevelBarState createState() => _LevelBarState();
@@ -51,7 +51,7 @@ class _LevelBarState extends State<LevelBar> {
                           thumbShape: RoundSliderThumbShape(enabledThumbRadius: 12.0),
                           overlayShape: RoundSliderOverlayShape(overlayRadius: 24.0),
                           tickMarkShape: SliderTickMarkShape.noTickMark,
-                          valueIndicatorShape: PaddleSliderValueIndicatorShape(), // Balãozinho
+                          valueIndicatorShape: PaddleSliderValueIndicatorShape(),
                           valueIndicatorTextStyle: widget.textStyle,
                         ),
                         child: Slider(
@@ -59,7 +59,7 @@ class _LevelBarState extends State<LevelBar> {
                           min: widget.min,
                           max: widget.max,
                           divisions: (widget.max - widget.min).toInt(),
-                          label: _currentValue.toString(), // Valor atual exibido no balão
+                          label: _currentValue.toString(),
                           onChanged: (value) {
                             setState(() {
                               _currentValue = value.toInt();
