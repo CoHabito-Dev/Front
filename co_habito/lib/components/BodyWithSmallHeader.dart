@@ -10,7 +10,7 @@ class BodyWithSmallHeader extends StatelessWidget implements PreferredSizeWidget
       alignment: Alignment.bottomCenter,
       child: Container(
       constraints: BoxConstraints(
-        maxHeight: 680
+        maxHeight: 615
       ),
         decoration: BoxDecoration(
           color: Colors.white,

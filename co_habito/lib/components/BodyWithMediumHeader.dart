@@ -10,7 +10,7 @@ class BodyWithMediumHeader extends StatelessWidget implements PreferredSizeWidge
       alignment: Alignment.bottomCenter,
       child: Container(
       constraints: BoxConstraints(
-        maxHeight: 600
+        maxHeight: 566
       ),
         decoration: BoxDecoration(
           color: Colors.white,

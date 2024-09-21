@@ -10,7 +10,7 @@ class BodyWithLargeHeader extends StatelessWidget implements PreferredSizeWidget
       alignment: Alignment.bottomCenter,
       child: Container(
       constraints: BoxConstraints(
-        maxHeight: 300
+        maxHeight: 278
       ),
         decoration: BoxDecoration(
           color: Colors.white,
