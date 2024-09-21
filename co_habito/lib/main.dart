@@ -1,4 +1,4 @@
-import 'package:co_habito/components/LinkLabel.dart';
+import 'package:co_habito/components/HeaderTitle.dart';
 import 'package:flutter/material.dart';
 import 'AppColors.dart';
 
@@ -6,7 +6,12 @@ void main() {
   runApp( MaterialApp(
     home: Scaffold(
       body: Center(
-        child: LinkLabel(grey: "Não é registrado? ", blue: "Cadastre-se Agora")/*Text(
+        child: Scaffold(
+          appBar: AppBar(
+            backgroundColor: AppColors.Carolina_Blue,
+            title: HeaderTitle(title: "CoHábito", fontSize: 40,),
+          ),
+        )/*Text(
           'Hello, World!',
           style: TextStyle(
             color: AppColors.Lapis_Lazuli,
