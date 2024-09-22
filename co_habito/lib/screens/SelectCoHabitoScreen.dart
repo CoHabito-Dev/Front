@@ -10,7 +10,16 @@ class SelectCoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: "Seus CoHábitos", fontSize: 30),),
-      body: BodyWithSmallHeader(),
+      body: BodyWithSmallHeader(
+        child: Container(
+          width: 298,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      ),
     );
   }
 }

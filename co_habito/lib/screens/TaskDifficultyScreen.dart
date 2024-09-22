@@ -12,7 +12,16 @@ class TaskDifficultyScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: taskTitle, fontSize: 30),),
-      body: BodyWithSmallHeader()
+      body: BodyWithSmallHeader(
+        child: Container(
+          width: 294,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      )
     );
   }
 }

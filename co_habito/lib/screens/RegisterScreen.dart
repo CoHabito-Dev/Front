@@ -10,7 +10,16 @@ class RegisterScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: "Cadastrar", fontSize: 36),),
-      body: BodyWithSmallHeader()
+      body: BodyWithSmallHeader(
+        child: Container(
+          width: 308,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      )
     );
   }
 }

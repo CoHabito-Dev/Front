@@ -9,7 +9,16 @@ class LoginScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: MediumHeader(),
-      body: BodyWithMediumHeader(),
+      body: BodyWithMediumHeader(
+        child: Container(
+          width: 333,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      ),
     );
   }
 }

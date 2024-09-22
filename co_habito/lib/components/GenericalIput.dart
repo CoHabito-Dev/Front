@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:co_habito/AppColors.dart';
 
 class GenericalInput extends StatelessWidget{
   final TextInputType textInputType;

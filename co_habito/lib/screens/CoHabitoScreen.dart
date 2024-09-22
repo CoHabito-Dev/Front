@@ -12,7 +12,16 @@ class CoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: coHabitoName, fontSize: 30)),
-      body: BodyWithSmallHeader(),
+      body: BodyWithSmallHeader(
+        child: Container(
+          width: 340,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      ),
     );
   }
 }

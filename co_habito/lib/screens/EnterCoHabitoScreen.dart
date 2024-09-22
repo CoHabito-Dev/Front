@@ -10,7 +10,16 @@ class EnterCoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: "Entrar em CoHábito", fontSize: 24),),
-      body: BodyWithSmallHeader()
+      body: BodyWithSmallHeader(
+        child: Container(
+          width: 308,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      )
     );
   }
 }

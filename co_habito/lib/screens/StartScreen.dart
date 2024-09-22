@@ -10,7 +10,16 @@ class StartScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: LargeHeader(title: HeaderTitle(title: "CoHábito", fontSize: 40)),
-      body: BodyWithLargeHeader(),
+      body: BodyWithLargeHeader(
+        child: Container(
+          width: 241,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

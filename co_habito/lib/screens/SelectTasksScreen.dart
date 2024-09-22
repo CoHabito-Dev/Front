@@ -10,7 +10,16 @@ class SelectTasksScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: "Selecionar Tarefas", fontSize: 26),),
-      body: BodyWithSmallHeader()
+      body: BodyWithSmallHeader(
+        child: Container(
+          width: 331,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      )
     );
   }
 }

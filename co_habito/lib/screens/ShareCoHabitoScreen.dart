@@ -10,7 +10,16 @@ class ShareCoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: "Convite CoHábito", fontSize: 26),),
-      body: BodyWithSmallHeader()
+      body: BodyWithSmallHeader(
+        child: Container(
+          width: 308,
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      )
     );
   }
 }
