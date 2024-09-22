@@ -9,7 +9,7 @@ class BodyWithMediumHeader extends StatelessWidget implements PreferredSizeWidge
     return Align(
       alignment: Alignment.bottomCenter,
       child: Container(
-        height: 566,
+        height: 612,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -23,6 +23,6 @@ class BodyWithMediumHeader extends StatelessWidget implements PreferredSizeWidge
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(566);
+  Size get preferredSize => Size.fromHeight(612);
 }
 

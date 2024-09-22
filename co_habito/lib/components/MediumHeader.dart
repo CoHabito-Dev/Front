@@ -5,13 +5,14 @@ class MediumHeader extends StatelessWidget implements PreferredSizeWidget{
   @override
   Widget build(BuildContext context) {
     return PreferredSize(
-      preferredSize: Size.fromHeight(134),
+      preferredSize: Size.fromHeight(88),
       child: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: AppColors.Carolina_Blue,
       ),
     );
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(134);
+  Size get preferredSize => Size.fromHeight(88);
 }
