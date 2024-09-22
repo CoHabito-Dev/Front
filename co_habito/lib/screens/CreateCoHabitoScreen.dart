@@ -4,7 +4,6 @@ import 'package:co_habito/components/CustomImageButton.dart';
 import 'package:co_habito/components/GenericalButton.dart';
 import 'package:co_habito/components/HeaderTitle.dart';
 import 'package:co_habito/components/SmallHeader.dart';
-import 'package:co_habito/screens/CoHabitoScreen.dart';
 import 'package:co_habito/screens/SelectCoHabitoScreen.dart';
 import 'package:co_habito/screens/SelectTasksScreen.dart';
 import 'package:co_habito/screens/StartScreen.dart';
