@@ -8,11 +8,11 @@ class LargeHeader extends StatelessWidget implements PreferredSizeWidget{
   @override
   Widget build(BuildContext context) {
     return PreferredSize(
-      preferredSize: Size.fromHeight(422),
+      preferredSize: Size.fromHeight(376),
       child: AppBar(
         backgroundColor: AppColors.Carolina_Blue,
         flexibleSpace: Container(
-          height: 422,
+          height: 376,
           alignment: Alignment.center,
           child: title ?? Text("")
         )
@@ -21,5 +21,5 @@ class LargeHeader extends StatelessWidget implements PreferredSizeWidget{
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(422);
+  Size get preferredSize => Size.fromHeight(376);
 }

@@ -9,7 +9,7 @@ class BodyWithSmallHeader extends StatelessWidget implements PreferredSizeWidget
     return Align(
       alignment: Alignment.bottomCenter,
       child: Container(
-        height: 615,
+        height: 661,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           color: Colors.white,

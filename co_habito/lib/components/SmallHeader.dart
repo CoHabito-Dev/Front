@@ -10,8 +10,9 @@ class SmallHeader extends StatelessWidget implements PreferredSizeWidget{
   @override
   Widget build(BuildContext context) {
     return PreferredSize(
-      preferredSize: Size.fromHeight(85),
+      preferredSize: Size.fromHeight(123),
       child: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: AppColors.Carolina_Blue,
         flexibleSpace: Container(
           height: 422,
@@ -27,5 +28,5 @@ class SmallHeader extends StatelessWidget implements PreferredSizeWidget{
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(85);
+  Size get preferredSize => Size.fromHeight(123);
 }

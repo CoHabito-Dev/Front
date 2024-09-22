@@ -9,7 +9,7 @@ class BodyWithLargeHeader extends StatelessWidget implements PreferredSizeWidget
     return Align(
       alignment: Alignment.bottomCenter,
       child: Container(
-        height: 278,
+        height: 324,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -23,6 +23,6 @@ class BodyWithLargeHeader extends StatelessWidget implements PreferredSizeWidget
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(278);
+  Size get preferredSize => Size.fromHeight(324);
 }
 
