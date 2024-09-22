@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:co_habito/tools/Go.dart';
 
 class LinkLabel extends StatelessWidget{
   final String grey;
   final String blue;
-  LinkLabel({required this.grey, required this.blue});
+  final Widget linkTo;
+  LinkLabel({required this.grey, required this.blue, required this.linkTo});
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -21,7 +23,9 @@ class LinkLabel extends StatelessWidget{
           )
         ),
         TextButton(
-          onPressed: null, 
+          onPressed: (){
+            Go.to(linkTo, context);
+          }, 
           child: Text(
             blue,
             style: TextStyle(
