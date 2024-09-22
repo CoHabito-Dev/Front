@@ -10,6 +10,7 @@ class LargeHeader extends StatelessWidget implements PreferredSizeWidget{
     return PreferredSize(
       preferredSize: Size.fromHeight(376),
       child: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: AppColors.Carolina_Blue,
         flexibleSpace: Container(
           height: 376,
