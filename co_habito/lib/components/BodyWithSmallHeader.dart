@@ -9,16 +9,15 @@ class BodyWithSmallHeader extends StatelessWidget implements PreferredSizeWidget
     return Align(
       alignment: Alignment.bottomCenter,
       child: Container(
-      constraints: BoxConstraints(
-        maxHeight: 615
-      ),
+        height: 615,
+        width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(100)
           )
         ),
-        child: child ?? SizedBox.expand(),
+        child: child,
       )
     );
   }
