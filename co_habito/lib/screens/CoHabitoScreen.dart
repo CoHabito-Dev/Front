@@ -13,13 +13,15 @@ class CoHabitoScreen extends StatelessWidget{
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: coHabitoName, fontSize: 30)),
       body: BodyWithSmallHeader(
-        child: Container(
-          width: 340,
-          child: Column(
-            children: [
-              
-            ],
-          ),
+        child: Center(
+          child: Container(
+            width: 340,
+            child: Column(
+              children: [
+                
+              ],
+            ),
+          )
         )
       ),
     );

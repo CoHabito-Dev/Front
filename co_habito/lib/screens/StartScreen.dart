@@ -16,21 +16,23 @@ class StartScreen extends StatelessWidget{
       backgroundColor: AppColors.Carolina_Blue,
       appBar: LargeHeader(title: HeaderTitle(title: "CoHábito", fontSize: 40)),
       body: BodyWithLargeHeader(
-        child: Container(
-          width: 241,
-          child: Column(
-            children: [
-              SizedBox(height: 40,),
-              GenericalButton(buttonText: "Login", onPressed: (){
-                Go.to(LoginScreen(), context);
-              }),
-              OULabel(),
-              GenericalButton(buttonText: "Cadastrar", onPressed: (){
-                Go.to(RegisterScreen(), context);
-              })
-            ],
-          ),
-        ),
+        child: Center(
+          child: Container(
+            width: 248,
+            child: Column(
+              children: [
+                SizedBox(height: 40,),
+                GenericalButton(buttonText: "Login", onPressed: (){
+                  Go.to(LoginScreen(), context);
+                }),
+                OULabel(),
+                GenericalButton(buttonText: "Cadastrar", onPressed: (){
+                  Go.to(RegisterScreen(), context);
+                })
+              ],
+            ),
+          )
+        )
       ),
     );
   }

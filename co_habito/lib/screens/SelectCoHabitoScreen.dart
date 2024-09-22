@@ -11,13 +11,15 @@ class SelectCoHabitoScreen extends StatelessWidget{
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: "Seus CoHábitos", fontSize: 30),),
       body: BodyWithSmallHeader(
-        child: Container(
-          width: 298,
-          child: Column(
-            children: [
-              
-            ],
-          ),
+        child: Center(
+          child: Container(
+            width: 298,
+            child: Column(
+              children: [
+                
+              ],
+            ),
+          )
         )
       ),
     );

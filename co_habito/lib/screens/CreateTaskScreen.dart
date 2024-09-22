@@ -11,13 +11,15 @@ class CreateTaskScreen extends StatelessWidget{
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(title: HeaderTitle(title: "Criar Tarefa", fontSize: 32),),
       body: BodyWithSmallHeader(
-        child: Container(
-          width: 308,
-          child: Column(
-            children: [
-              
-            ],
-          ),
+        child: Center(
+          child: Container(
+            width: 308,
+            child: Column(
+              children: [
+                
+              ],
+            ),
+          )
         )
       ),
     );
