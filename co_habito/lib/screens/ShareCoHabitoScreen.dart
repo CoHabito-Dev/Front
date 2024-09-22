@@ -6,6 +6,9 @@ import 'package:co_habito/screens/CoHabitoScreen.dart';
 import 'package:co_habito/tools/Go.dart';
 import 'package:co_habito/components/CustomImageButton.dart';
 import 'package:co_habito/screens/StartScreen.dart';
+import 'package:co_habito/components/GenericalIput.dart';
+import 'package:co_habito/components/GenericalButton.dart';
+import 'package:co_habito/components/InputLabel.dart';
 import 'package:flutter/material.dart';
 
 class ShareCoHabitoScreen extends StatelessWidget{
@@ -24,7 +27,12 @@ class ShareCoHabitoScreen extends StatelessWidget{
             width: 308,
             child: Column(
               children: [
-                
+                SizedBox(height: 60,),
+                Align(alignment: Alignment.centerLeft, child: InputLabel(string: "ID:", fontSize: 14)),
+                SizedBox(height: 10,),
+                GenericalInput(textInputType: TextInputType.text, ispassword: false),
+                SizedBox(height: 40,),
+                GenericalButton(buttonText: "Compartilhar", onPressed: (){})
               ],
             ),
           )
