@@ -21,7 +21,7 @@ class SelectTasksScreen extends StatelessWidget{
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(
         before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(CreateCoHabitoScreen(), context);}),
-        title: HeaderTitle(title: "Criar CoHábito", fontSize: 32),
+        title: HeaderTitle(title: "Selecionar tarefas", fontSize: 26),
         after: CustomImageButton(imageUrl: "", onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
