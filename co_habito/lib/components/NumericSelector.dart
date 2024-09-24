@@ -1,11 +1,12 @@
+import 'package:co_habito/AppIcons.dart';
 import 'package:flutter/material.dart';
 
 class NumericSelector extends StatefulWidget {
   final int initialValue;
   final int minValue;
   final int maxValue;
-  final String minusIconUrl;
-  final String plusIconUrl;
+  final String minusIconUrl = AppIcons.circle_info_charcoal;
+  final String plusIconUrl = AppIcons.circle_plus_charcoal;
   final double iconAndTextSpace;
   final double buttonWidth;
   final double buttonHeight;
@@ -16,8 +17,6 @@ class NumericSelector extends StatefulWidget {
     this.initialValue = 0,
     this.minValue = 0,
     this.maxValue = 999,
-    this.minusIconUrl = 'assets/images/image16.png', // URL do ícone de "-"
-    this.plusIconUrl = 'assets/images/image8.png',  // URL do ícone de "+"
     this.iconAndTextSpace = 16,
     double? buttonWidth, 
     double? buttonHeight, 
@@ -60,7 +59,7 @@ class _NumericSelectorState extends State<NumericSelector> {
       children: [
         GestureDetector(
           onTap: _decrement,
-          child: Image.network(
+          child: Image.asset(
             widget.minusIconUrl,
             width: widget.buttonWidth,
             height: widget.buttonHeight,
@@ -78,7 +77,7 @@ class _NumericSelectorState extends State<NumericSelector> {
         SizedBox(width: widget.iconAndTextSpace), 
         GestureDetector(
           onTap: _increment,
-          child: Image.network(
+          child: Image.asset(
             widget.plusIconUrl,
             width: widget.buttonWidth, 
             height: widget.buttonHeight,

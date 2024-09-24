@@ -1,4 +1,5 @@
 import 'package:co_habito/AppColors.dart';
+import 'package:co_habito/AppIcons.dart';
 import 'package:co_habito/components/BodyWithSmallHeader.dart';
 import 'package:co_habito/components/HeaderTitle.dart';
 import 'package:co_habito/components/SectionTitle.dart';
@@ -22,7 +23,7 @@ class CoHabitoScreen extends StatelessWidget{
       appBar: SmallHeader(
         before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(SelectCoHabitoScreen(), context);}),
         title: HeaderTitle(title: coHabitoName, fontSize: 30),
-        after: CustomImageButton(imageUrl: "", onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(
@@ -31,7 +32,7 @@ class CoHabitoScreen extends StatelessWidget{
             child: Column(
               children: [
                 SizedBox(height: 20,),
-                Align(alignment: Alignment.centerRight, child: CustomImageButton(imageUrl: "", onPressed: (){Go.to(ShareCoHabitoScreen(), context);})),
+                Align(alignment: Alignment.centerRight, child: CustomImageButton(imageUrl: AppIcons.link_simple_lapisLazuli, onPressed: (){Go.to(ShareCoHabitoScreen(), context);})),
                 Align(alignment: Alignment.centerLeft, child: SecionTitle(title: "Tarefas sem dono")),
                 TaskandtimeCard(imageUrl: "", title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
                 SizedBox(height: 30,),

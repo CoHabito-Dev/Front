@@ -9,15 +9,15 @@ class CustomImageButton extends StatelessWidget {
   CustomImageButton({
     required this.imageUrl,
     required this.onPressed,
-    this.width,
-    this.height,
-  });
+    double? width,
+    double? height,
+  }) : width = width ?? 32, height = height ?? 32;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onPressed,
-      child: Image.network(
+      child: Image.asset(
         imageUrl,
         width: width,
         height: height,

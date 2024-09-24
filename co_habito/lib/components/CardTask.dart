@@ -38,30 +38,31 @@ class _TaskCardState extends State<TaskCard> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 362,
-      height: 100,
-      child: Card(
-        margin: EdgeInsets.all(16.0),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-            ListTile(
-              leading: CircleAvatar(
-                backgroundColor: Colors.blue,
-                child: Icon(widget.icon, color: Colors.yellow),
+    return Center(
+      child: Container(
+        width: 400,
+        child: Card(
+          margin: EdgeInsets.all(16.0),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              ListTile(
+                leading: CircleAvatar(
+                  backgroundColor: Colors.blue,
+                  child: Icon(widget.icon, color: Colors.yellow),
+                ),
+                title: Text(widget.title, style: TextStyle(fontWeight: FontWeight.bold)),
+                trailing: Checkbox(
+                  value: isChecked,
+                  onChanged: (bool? value) {
+                    setState(() {
+                      isChecked = value!;
+                    });
+                  },
+                ),
               ),
-              title: Text(widget.title, style: TextStyle(fontWeight: FontWeight.bold)),
-              trailing: Checkbox(
-                value: isChecked,
-                onChanged: (bool? value) {
-                  setState(() {
-                    isChecked = value!;
-                  });
-                },
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

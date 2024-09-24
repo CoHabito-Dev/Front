@@ -1,4 +1,5 @@
 import 'package:co_habito/AppColors.dart';
+import 'package:co_habito/AppIcons.dart';
 import 'package:co_habito/components/BodyWithSmallHeader.dart';
 import 'package:co_habito/components/HeaderTitle.dart';
 import 'package:co_habito/components/SmallHeader.dart';
@@ -20,7 +21,7 @@ class CreateTaskScreen extends StatelessWidget{
       appBar: SmallHeader(
         before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(SelectTasksScreen(), context);}),
         title: HeaderTitle(title: "Criar Tarefa", fontSize: 32),
-        after: CustomImageButton(imageUrl: "", onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(
