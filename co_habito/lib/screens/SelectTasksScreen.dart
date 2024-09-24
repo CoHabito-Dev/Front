@@ -1,4 +1,5 @@
 import 'package:co_habito/AppColors.dart';
+import 'package:co_habito/AppIcons.dart';
 import 'package:co_habito/components/BodyWithSmallHeader.dart';
 import 'package:co_habito/components/CardTask.dart';
 import 'package:co_habito/components/GenericalButton.dart';
@@ -22,7 +23,7 @@ class SelectTasksScreen extends StatelessWidget{
       appBar: SmallHeader(
         before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(CreateCoHabitoScreen(), context);}),
         title: HeaderTitle(title: "Selecionar tarefas", fontSize: 26),
-        after: CustomImageButton(imageUrl: "", onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(
@@ -30,7 +31,7 @@ class SelectTasksScreen extends StatelessWidget{
             width: 331,
             child: Column(
               children: [
-                SizedBox(height: 60,),
+                // SizedBox(height: 60,),
                 Align(alignment: Alignment.centerLeft, child: InputLabel(string: "Nome:", fontSize: 14)),
                 SizedBox(height: 10,),
                 SearchInput(textInputType: TextInputType.text),

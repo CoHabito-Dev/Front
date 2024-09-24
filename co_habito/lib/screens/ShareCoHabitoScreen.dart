@@ -1,4 +1,5 @@
 import 'package:co_habito/AppColors.dart';
+import 'package:co_habito/AppIcons.dart';
 import 'package:co_habito/components/BodyWithSmallHeader.dart';
 import 'package:co_habito/components/HeaderTitle.dart';
 import 'package:co_habito/components/SmallHeader.dart';
@@ -19,7 +20,7 @@ class ShareCoHabitoScreen extends StatelessWidget{
       appBar: SmallHeader(
         before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(CoHabitoScreen(coHabitoName: "Casa dos Pais"), context);}),
         title: HeaderTitle(title: "Convite CoHábito", fontSize: 26),
-        after: CustomImageButton(imageUrl: "", onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(
