@@ -8,6 +8,7 @@ class AppIcons {
   static final String calender_pen_carolinaBlue = 'icons/Carolina_Blue/calender_pen-carolinaBlue.png';
   static final String circle_check_carolinaBlue = 'icons/Carolina_Blue/circle_check-carolinaBlue.png';
   static final String circle_info_carolinaBlue = 'icons/Carolina_Blue/circle_info-carolinaBlue.png';
+  static final String circle_plus_full_carolinaBlue = 'icons/Carolina_Blue/circle_plus_full-carolinaBlue.png';
   static final String circle_plus_carolinaBlue = 'icons/Carolina_Blue/circle_plus-carolinaBlue.png';
   static final String circle_user_carolinaBlue = 'icons/Carolina_Blue/circle_user-carolinaBlue.png';
   static final String circle_xmark_carolinaBlue = 'icons/Carolina_Blue/circle_xmark-carolinaBlue.png';
@@ -53,6 +54,7 @@ class AppIcons {
   static final String calender_pen_charcoal = 'icons/Charcoal/calender_pen-charcoal.png';
   static final String circle_check_charcoal = 'icons/Charcoal/circle_check-charcoal.png';
   static final String circle_info_charcoal = 'icons/Charcoal/circle_info-charcoal.png';
+  static final String circle_plus_full_charcoal = 'icons/Charcoal/circle_plus_full-charcoal.png';
   static final String circle_plus_charcoal = 'icons/Charcoal/circle_plus-charcoal.png';
   static final String circle_user_charcoal = 'icons/Charcoal/circle_user-charcoal.png';
   static final String circle_xmark_charcoal = 'icons/Charcoal/circle_xmark-charcoal.png';
@@ -98,6 +100,7 @@ class AppIcons {
   static final String calender_pen_lapisLazuli = 'icons/Lapis_Lazuli/calender_pen-lapisLazuli.png';
   static final String circle_check_lapisLazuli = 'icons/Lapis_Lazuli/circle_check-lapisLazuli.png';
   static final String circle_info_lapisLazuli = 'icons/Lapis_Lazuli/circle_info-lapisLazuli.png';
+  static final String circle_plus_full_lapisLazuli = 'icons/Lapis_Lazuli/circle_plus_full-lapisLazuli.png';
   static final String circle_plus_lapisLazuli = 'icons/Lapis_Lazuli/circle_plus-lapisLazuli.png';
   static final String circle_user_lapisLazuli = 'icons/Lapis_Lazuli/circle_user-lapisLazuli.png';
   static final String circle_xmark_lapisLazuli = 'icons/Lapis_Lazuli/circle_xmark-lapisLazuli.png';
@@ -143,6 +146,7 @@ class AppIcons {
   static final String calender_pen_lightGreen = 'icons/Light_Green/calender_pen-lightGreen.png';
   static final String circle_check_lightGreen = 'icons/Light_Green/circle_check-lightGreen.png';
   static final String circle_info_lightGreen = 'icons/Light_Green/circle_info-lightGreen.png';
+  static final String circle_plus_full_lightGreen = 'icons/Light_Green/circle_plus_full-lightGreen.png';
   static final String circle_plus_lightGreen = 'icons/Light_Green/circle_plus-lightGreen.png';
   static final String circle_user_lightGreen = 'icons/Light_Green/circle_user-lightGreen.png';
   static final String circle_xmark_lightGreen = 'icons/Light_Green/circle_xmark-lightGreen.png';
@@ -188,6 +192,7 @@ class AppIcons {
   static final String calender_pen_nyanza = 'icons/Nyanza/calender_pen-nyanza.png';
   static final String circle_check_nyanza = 'icons/Nyanza/circle_check-nyanza.png';
   static final String circle_info_nyanza = 'icons/Nyanza/circle_info-nyanza.png';
+  static final String circle_plus_full_nyanza = 'icons/Nyanza/circle_plus_full-nyanza.png';
   static final String circle_plus_nyanza = 'icons/Nyanza/circle_plus-nyanza.png';
   static final String circle_user_nyanza = 'icons/Nyanza/circle_user-nyanza.png';
   static final String circle_xmark_nyanza = 'icons/Nyanza/circle_xmark-nyanza.png';
