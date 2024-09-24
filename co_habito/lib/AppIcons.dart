@@ -1,6 +1,7 @@
 class AppIcons {
   static final String air_filter_carolinaBlue = 'icons/Carolina_Blue/air_filter-carolinaBlue.png'; 
   static final String alarm_clock_carolinaBlue = 'icons/Carolina_Blue/alarm_clock-carolinaBlue.png';
+  static final String arrow_left_carolinaBlue = 'icons/Carolina_Blue/arrow_left-carolinaBlue.png';
   static final String bed_carolinaBlue = 'icons/Carolina_Blue/bed-carolinaBlue.png';
   static final String broom_carolinaBlue = 'icons/Carolina_Blue/broom-carolinaBlue.png';
   static final String bubbles_carolinaBlue = 'icons/Carolina_Blue/bubbles-carolinaBlue.png';
@@ -8,6 +9,7 @@ class AppIcons {
   static final String calender_pen_carolinaBlue = 'icons/Carolina_Blue/calender_pen-carolinaBlue.png';
   static final String circle_check_carolinaBlue = 'icons/Carolina_Blue/circle_check-carolinaBlue.png';
   static final String circle_info_carolinaBlue = 'icons/Carolina_Blue/circle_info-carolinaBlue.png';
+  static final String circle_minus_carolinaBlue = 'icons/Carolina_Blue/circle_minus-carolinaBlue.png';
   static final String circle_plus_full_carolinaBlue = 'icons/Carolina_Blue/circle_plus_full-carolinaBlue.png';
   static final String circle_plus_carolinaBlue = 'icons/Carolina_Blue/circle_plus-carolinaBlue.png';
   static final String circle_user_carolinaBlue = 'icons/Carolina_Blue/circle_user-carolinaBlue.png';
@@ -18,6 +20,7 @@ class AppIcons {
   static final String couch_carolinaBlue = 'icons/Carolina_Blue/couch-carolinaBlue.png';
   static final String dishwasher_carolinaBlue = 'icons/Carolina_Blue/dishwasher-carolinaBlue.png';
   static final String eraser_carolinaBlue = 'icons/Carolina_Blue/eraser-carolinaBlue.png';
+  static final String exit_carolinaBlue = 'icons/Carolina_Blue/exit-carolinaBlue.png';
   static final String gear_carolinaBlue = 'icons/Carolina_Blue/gear-carolinaBlue.png';
   static final String glass_clean_carolinaBlue = 'icons/Carolina_Blue/glass_clean-carolinaBlue.png';
   static final String house_check_carolinaBlue = 'icons/Carolina_Blue/house_check-carolinaBlue.png';
@@ -47,6 +50,7 @@ class AppIcons {
 
   static final String air_filter_charcoal = 'icons/Charcoal/air_filter-charcoal.png'; 
   static final String alarm_clock_charcoal = 'icons/Charcoal/alarm_clock-charcoal.png';
+  static final String arrow_left_charcoal = 'icons/Charcoal/arrow_left-charcoal.png';
   static final String bed_charcoal = 'icons/Charcoal/bed-charcoal.png';
   static final String broom_charcoal = 'icons/Charcoal/broom-charcoal.png';
   static final String bubbles_charcoal = 'icons/Charcoal/bubbles-charcoal.png';
@@ -54,6 +58,7 @@ class AppIcons {
   static final String calender_pen_charcoal = 'icons/Charcoal/calender_pen-charcoal.png';
   static final String circle_check_charcoal = 'icons/Charcoal/circle_check-charcoal.png';
   static final String circle_info_charcoal = 'icons/Charcoal/circle_info-charcoal.png';
+  static final String circle_minus_charcoal = 'icons/Charcoal/circle_minus-charcoal.png';
   static final String circle_plus_full_charcoal = 'icons/Charcoal/circle_plus_full-charcoal.png';
   static final String circle_plus_charcoal = 'icons/Charcoal/circle_plus-charcoal.png';
   static final String circle_user_charcoal = 'icons/Charcoal/circle_user-charcoal.png';
@@ -64,6 +69,7 @@ class AppIcons {
   static final String couch_charcoal = 'icons/Charcoal/couch-charcoal.png';
   static final String dishwasher_charcoal = 'icons/Charcoal/dishwasher-charcoal.png';
   static final String eraser_charcoal = 'icons/Charcoal/eraser-charcoal.png';
+  static final String exit_charcoal = 'icons/Charcoal/exit-charcoal.png';
   static final String gear_charcoal = 'icons/Charcoal/gear-charcoal.png';
   static final String glass_clean_charcoal = 'icons/Charcoal/glass_clean-charcoal.png';
   static final String house_check_charcoal = 'icons/Charcoal/house_check-charcoal.png';
@@ -93,6 +99,7 @@ class AppIcons {
 
   static final String air_filter_lapisLazuli = 'icons/Lapis_Lazuli/air_filter-lapisLazuli.png'; 
   static final String alarm_clock_lapisLazuli = 'icons/Lapis_Lazuli/alarm_clock-lapisLazuli.png';
+  static final String arrow_left_lapisLazuli = 'icons/Lapis_Lazuli/arrow_left-lapisLazuli.png';
   static final String bed_lapisLazuli = 'icons/Lapis_Lazuli/bed-lapisLazuli.png';
   static final String broom_lapisLazuli = 'icons/Lapis_Lazuli/broom-lapisLazuli.png';
   static final String bubbles_lapisLazuli = 'icons/Lapis_Lazuli/bubbles-lapisLazuli.png';
@@ -100,6 +107,7 @@ class AppIcons {
   static final String calender_pen_lapisLazuli = 'icons/Lapis_Lazuli/calender_pen-lapisLazuli.png';
   static final String circle_check_lapisLazuli = 'icons/Lapis_Lazuli/circle_check-lapisLazuli.png';
   static final String circle_info_lapisLazuli = 'icons/Lapis_Lazuli/circle_info-lapisLazuli.png';
+  static final String circle_minus_lapisLazuli = 'icons/Lapis_Lazuli/circle_minus-lapisLazuli.png';
   static final String circle_plus_full_lapisLazuli = 'icons/Lapis_Lazuli/circle_plus_full-lapisLazuli.png';
   static final String circle_plus_lapisLazuli = 'icons/Lapis_Lazuli/circle_plus-lapisLazuli.png';
   static final String circle_user_lapisLazuli = 'icons/Lapis_Lazuli/circle_user-lapisLazuli.png';
@@ -110,6 +118,7 @@ class AppIcons {
   static final String couch_lapisLazuli = 'icons/Lapis_Lazuli/couch-lapisLazuli.png';
   static final String dishwasher_lapisLazuli = 'icons/Lapis_Lazuli/dishwasher-lapisLazuli.png';
   static final String eraser_lapisLazuli = 'icons/Lapis_Lazuli/eraser-lapisLazuli.png';
+  static final String exit_lapisLazuli = 'icons/Lapis_Lazuli/exit-lapisLazuli.png';
   static final String gear_lapisLazuli = 'icons/Lapis_Lazuli/gear-lapisLazuli.png';
   static final String glass_clean_lapisLazuli = 'icons/Lapis_Lazuli/glass_clean-lapisLazuli.png';
   static final String house_check_lapisLazuli = 'icons/Lapis_Lazuli/house_check-lapisLazuli.png';
@@ -139,6 +148,7 @@ class AppIcons {
 
   static final String air_filter_lightGreen = 'icons/Light_Green/air_filter-lightGreen.png'; 
   static final String alarm_clock_lightGreen = 'icons/Light_Green/alarm_clock-lightGreen.png';
+  static final String arrow_left_lightGreen = 'icons/Light_Green/arrow_left-lightGreen.png';
   static final String bed_lightGreen = 'icons/Light_Green/bed-lightGreen.png';
   static final String broom_lightGreen = 'icons/Light_Green/broom-lightGreen.png';
   static final String bubbles_lightGreen = 'icons/Light_Green/bubbles-lightGreen.png';
@@ -146,6 +156,7 @@ class AppIcons {
   static final String calender_pen_lightGreen = 'icons/Light_Green/calender_pen-lightGreen.png';
   static final String circle_check_lightGreen = 'icons/Light_Green/circle_check-lightGreen.png';
   static final String circle_info_lightGreen = 'icons/Light_Green/circle_info-lightGreen.png';
+  static final String circle_minus_lightGreen = 'icons/Light_Green/circle_minus-lightGreen.png';
   static final String circle_plus_full_lightGreen = 'icons/Light_Green/circle_plus_full-lightGreen.png';
   static final String circle_plus_lightGreen = 'icons/Light_Green/circle_plus-lightGreen.png';
   static final String circle_user_lightGreen = 'icons/Light_Green/circle_user-lightGreen.png';
@@ -156,6 +167,7 @@ class AppIcons {
   static final String couch_lightGreen = 'icons/Light_Green/couch-lightGreen.png';
   static final String dishwasher_lightGreen = 'icons/Light_Green/dishwasher-lightGreen.png';
   static final String eraser_lightGreen = 'icons/Light_Green/eraser-lightGreen.png';
+  static final String exit_lightGreen = 'icons/Light_Green/exit-lightGreen.png';
   static final String gear_lightGreen = 'icons/Light_Green/gear-lightGreen.png';
   static final String glass_clean_lightGreen = 'icons/Light_Green/glass_clean-lightGreen.png';
   static final String house_check_lightGreen = 'icons/Light_Green/house_check-lightGreen.png';
@@ -185,6 +197,7 @@ class AppIcons {
 
   static final String air_filter_nyanza = 'icons/Nyanza/air_filter-nyanza.png'; 
   static final String alarm_clock_nyanza = 'icons/Nyanza/alarm_clock-nyanza.png';
+  static final String arrow_left_nyanza = 'icons/Nyanza/arrow_left-nyanza.png';
   static final String bed_nyanza = 'icons/Nyanza/bed-nyanza.png';
   static final String broom_nyanza = 'icons/Nyanza/broom-nyanza.png';
   static final String bubbles_nyanza = 'icons/Nyanza/bubbles-nyanza.png';
@@ -192,6 +205,7 @@ class AppIcons {
   static final String calender_pen_nyanza = 'icons/Nyanza/calender_pen-nyanza.png';
   static final String circle_check_nyanza = 'icons/Nyanza/circle_check-nyanza.png';
   static final String circle_info_nyanza = 'icons/Nyanza/circle_info-nyanza.png';
+  static final String circle_minus_nyanza = 'icons/Nyanza/circle_minus-nyanza.png';
   static final String circle_plus_full_nyanza = 'icons/Nyanza/circle_plus_full-nyanza.png';
   static final String circle_plus_nyanza = 'icons/Nyanza/circle_plus-nyanza.png';
   static final String circle_user_nyanza = 'icons/Nyanza/circle_user-nyanza.png';
@@ -202,6 +216,7 @@ class AppIcons {
   static final String couch_nyanza = 'icons/Nyanza/couch-nyanza.png';
   static final String dishwasher_nyanza = 'icons/Nyanza/dishwasher-nyanza.png';
   static final String eraser_nyanza = 'icons/Nyanza/eraser-nyanza.png';
+  static final String exit_nyanza = 'icons/Nyanza/exit-nyanza.png';
   static final String gear_nyanza = 'icons/Nyanza/gear-nyanza.png';
   static final String glass_clean_nyanza = 'icons/Nyanza/glass_clean-nyanza.png';
   static final String house_check_nyanza = 'icons/Nyanza/house_check-nyanza.png';
