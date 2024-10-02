@@ -14,7 +14,7 @@ class _DifficultViewState extends State<DifficultView> {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
         _buildRadioOption('Fácil'),
         SizedBox(width: 16), // Espaço entre os botões de opção

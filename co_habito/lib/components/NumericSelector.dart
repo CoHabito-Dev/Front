@@ -55,7 +55,7 @@ class _NumericSelectorState extends State<NumericSelector> {
    @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
         GestureDetector(
           onTap: _decrement,
