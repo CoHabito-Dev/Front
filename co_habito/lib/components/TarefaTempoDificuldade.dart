@@ -1,6 +1,10 @@
+import 'package:co_habito/AppColors.dart';
+import 'package:co_habito/AppIcons.dart';
 import 'package:flutter/material.dart';
+import 'package:co_habito/components/CustomImageButton.dart';
 
 class TaskandtimeCard extends StatelessWidget {
+
   final String imageUrl;
   final String title;
   final int minutes;
@@ -31,7 +35,8 @@ class TaskandtimeCard extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 24,  // Tamanho do avatar
-                backgroundImage: NetworkImage(imageUrl), // ou AssetImage
+                backgroundColor: AppColors.Lapis_Lazuli,
+                child: CustomImageButton(imageUrl: imageUrl, onPressed: (){}),
               ),
               SizedBox(width: 10),
               Expanded(
@@ -51,7 +56,7 @@ class TaskandtimeCard extends StatelessWidget {
                       '$minutes minutos',
                       style: TextStyle(
                         fontSize: 14,
-                        color: Colors.grey, // Cor cinza para o tempo
+                        color: Color(0xFF5E5E5E), // Cor cinza para o tempo
                       ),
                     ),
                   ],
@@ -75,7 +80,7 @@ class TaskandtimeCard extends StatelessWidget {
                     difficulty,
                     style: TextStyle(
                       fontSize: 14,
-                      color: const Color.fromARGB(255, 165, 165, 165), // Mesma cor do círculo
+                      color: const Color(0xFF5E5E5E)
                     ),
                   ),
                 ],

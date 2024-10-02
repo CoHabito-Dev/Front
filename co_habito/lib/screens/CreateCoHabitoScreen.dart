@@ -19,9 +19,9 @@ class CreateCoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(
-        before: CustomImageButton(imageUrl: "ICONE DE VOLTAR", onPressed: (){Go.to(SelectCoHabitoScreen(), context);}),
+        before: CustomImageButton(imageUrl: AppIcons.arrow_left_charcoal, onPressed: (){Go.to(SelectCoHabitoScreen(), context);}),
         title: HeaderTitle(title: "Criar CoHábito", fontSize: 32),
-        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.exit_charcoal, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(

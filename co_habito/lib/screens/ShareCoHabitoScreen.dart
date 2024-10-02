@@ -18,9 +18,9 @@ class ShareCoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(
-        before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(CoHabitoScreen(coHabitoName: "Casa dos Pais"), context);}),
+        before: CustomImageButton(imageUrl: AppIcons.arrow_left_charcoal, onPressed: (){Go.to(CoHabitoScreen(coHabitoName: "Casa dos Pais"), context);}),
         title: HeaderTitle(title: "Convite CoHábito", fontSize: 26),
-        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.exit_charcoal, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(
