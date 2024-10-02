@@ -1,28 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Exemplo de Card'),
-        ),
-        body: Center(
-          child: TaskCard(
-            title: 'Varrer a Casa',
-            icon: Icons.cleaning_services,
-          ),
-        ),
-      ),
-    );
-  }
-}
-
 class TaskCard extends StatefulWidget {
   final String title;
   final IconData icon;
@@ -56,7 +33,7 @@ class _TaskCardState extends State<TaskCard> {
                   value: isChecked,
                   onChanged: (bool? value) {
                     setState(() {
-                      isChecked = value!;
+                      isChecked = value ?? false;
                     });
                   },
                 ),
