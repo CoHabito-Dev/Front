@@ -19,7 +19,7 @@ class RegisterScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
-      appBar: SmallHeader(before: CustomImageButton(imageUrl: "IMAGEM DE VOLTAR", onPressed:(){Go.to(StartScreen(), context);}),title: HeaderTitle(title: "Cadastrar", fontSize: 36),),
+      appBar: SmallHeader(before: CustomImageButton(imageUrl: AppIcons.arrow_left_charcoal, onPressed:(){Go.to(StartScreen(), context);}),title: HeaderTitle(title: "Cadastrar", fontSize: 36),),
       body: BodyWithSmallHeader(
         backgroundColor: Colors.white,
         child: Center(

@@ -1,11 +1,14 @@
+import 'package:co_habito/AppColors.dart';
+import 'package:co_habito/components/CustomImageButton.dart';
 import 'package:flutter/material.dart';
 
 class CardCohabito extends StatelessWidget {
   final String title;
   final String subtitle;
-  final IconData icon;
+  final String imageUrl;
+  final Null Function() onPressed;
 
-  CardCohabito({required this.title, required this.subtitle, required this.icon});
+  CardCohabito({required this.title, required this.subtitle, required this.imageUrl, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +24,8 @@ class CardCohabito extends StatelessWidget {
             children: <Widget>[
               ListTile(
                 leading: CircleAvatar(
-                  backgroundColor: Colors.blue,
-                  child: Icon(icon, color: Colors.white),
+                  backgroundColor: AppColors.Lapis_Lazuli,
+                  child: CustomImageButton(imageUrl: imageUrl, onPressed: onPressed),
                 ),
                 title: Text(title, style: TextStyle(fontWeight: FontWeight.bold)),
                 subtitle: Text(subtitle),

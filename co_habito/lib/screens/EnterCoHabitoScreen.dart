@@ -19,9 +19,9 @@ class EnterCoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(
-        before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(SelectCoHabitoScreen(), context);}),
+        before: CustomImageButton(imageUrl: AppIcons.arrow_left_charcoal, onPressed: (){Go.to(SelectCoHabitoScreen(), context);}),
         title: HeaderTitle(title: "Entrar em CoHábito", fontSize: 24),
-        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.exit_charcoal, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(

@@ -21,9 +21,9 @@ class CoHabitoScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(
-        before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(SelectCoHabitoScreen(), context);}),
+        before: CustomImageButton(imageUrl: AppIcons.arrow_left_charcoal, onPressed: (){Go.to(SelectCoHabitoScreen(), context);}),
         title: HeaderTitle(title: coHabitoName, fontSize: 30),
-        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.exit_charcoal, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(
@@ -34,13 +34,13 @@ class CoHabitoScreen extends StatelessWidget{
                 SizedBox(height: 20,),
                 Align(alignment: Alignment.centerRight, child: CustomImageButton(imageUrl: AppIcons.link_simple_lapisLazuli, onPressed: (){Go.to(ShareCoHabitoScreen(), context);})),
                 Align(alignment: Alignment.centerLeft, child: SecionTitle(title: "Tarefas sem dono")),
-                TaskandtimeCard(imageUrl: "", title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
+                TaskandtimeCard(imageUrl: AppIcons.broom_carolinaBlue, title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
                 SizedBox(height: 30,),
                 Align(alignment: Alignment.centerLeft, child: SecionTitle(title: "Pessoas na Casa")),
                 ParticipantList(participantes: ["João", "Pedro", "Caio", "Victor", "Sávio", "Wily"]),
-                TaskandtimeCard(imageUrl: "", title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
-                TaskandtimeCard(imageUrl: "", title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
-                TaskandtimeCard(imageUrl: "", title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
+                TaskandtimeCard(imageUrl: AppIcons.broom_carolinaBlue, title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
+                TaskandtimeCard(imageUrl: AppIcons.broom_carolinaBlue, title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
+                TaskandtimeCard(imageUrl: AppIcons.broom_carolinaBlue, title: "Varrer Casa", minutes: 30, difficulty: "Difícil"),
               ],
             ),
           )

@@ -5,7 +5,7 @@ class NumericSelector extends StatefulWidget {
   final int initialValue;
   final int minValue;
   final int maxValue;
-  final String minusIconUrl = AppIcons.circle_info_charcoal;
+  final String minusIconUrl = AppIcons.circle_minus_charcoal;
   final String plusIconUrl = AppIcons.circle_plus_charcoal;
   final double iconAndTextSpace;
   final double buttonWidth;

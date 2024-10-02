@@ -23,9 +23,9 @@ class TaskDifficultyScreen extends StatelessWidget{
     return Scaffold(
       backgroundColor: AppColors.Carolina_Blue,
       appBar: SmallHeader(
-        before: CustomImageButton(imageUrl: "", onPressed: (){Go.to(SelectTasksScreen(), context);}),
+        before: CustomImageButton(imageUrl: AppIcons.arrow_left_charcoal, onPressed: (){Go.to(SelectTasksScreen(), context);}),
         title: HeaderTitle(title: taskTitle, fontSize: 30),
-        after: CustomImageButton(imageUrl: AppIcons.house_lapisLazuli, onPressed: (){Go.to(StartScreen(), context);}),
+        after: CustomImageButton(imageUrl: AppIcons.exit_charcoal, onPressed: (){Go.to(StartScreen(), context);}),
       ),
       body: BodyWithSmallHeader(
         child: Center(
