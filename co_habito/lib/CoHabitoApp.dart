@@ -19,9 +19,10 @@ class _CoHabitoAppState extends State<CoHabitoApp> {
     _initDatabase();
   }
 
-  void _initDatabase() async {
+ void _initDatabase() async {
     _database = await _recuperarBD();
     print("Banco de dados inicializado: ${_database.isOpen}");
+    setState(() {});
   }
 
   _recuperarBD() async {
@@ -106,10 +107,12 @@ class _CoHabitoAppState extends State<CoHabitoApp> {
       },
     );
   }
-  
+
+  Database get database => _database;
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+      return MaterialApp(
       title: 'Exemplo',
       home: StartScreen(),
     );
